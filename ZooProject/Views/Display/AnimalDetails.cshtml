@@ -1,0 +1,61 @@
+﻿@model ZooProject.Models.Animal;
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>AnimalDetails</title>
+    <link href="~/css/AnimalDetails.css" rel="stylesheet" />
+</head>
+<body>
+    <main>
+        @*animal details*@
+        <section class="box">
+            <h1>Animal Details:</h1>
+            <img src="@Url.Content(Model.ImgSource)" alt="@Html.DisplayFor(model => Model.Name) Image" />
+            <div><b>Name:</b> @Html.DisplayFor(model => Model.Name)</div>
+            <div><b>Age:</b> @Model.Age years old</div>
+            <div><b>Animal Id:</b> @Model.AnimalId</div>
+            <div><b>Category:</b> @ViewBag.CategoryName</div>
+            <div><b>Description:</b> @Model.Description</div>
+        </section>
+        @*show animal comments*@
+        <div class="box comments" style="overflow:auto">
+            <b>Comments:</b>
+            @{
+                var comments = Model.Comments?.ToList();
+                for (int i = 0; i < comments?.Count; i++)
+                {
+                    <div><b>Comment #@i</b> : @comments[i].CommentString</div>
+                }
+
+            }
+           @*add new comment form*@
+            <div>
+                <form asp-controller="Display" asp-action="AddComment" asp-route-id="@Model.AnimalId">
+                    <label>
+                        Comment On This Animal:
+                        <input name="comment" type="text" required minlength="1" maxlength="25" />
+                        <div>
+                            <span></span>
+                        </div>
+                    </label>
+                    <div>
+                        <button onclick="this.form.submit">Add Comment!</button>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </main>
+
+    <div id="link-holder">
+        <b><a id="link" asp-controller="Display" asp-action="DisplayAll">To Catalog</a></b>
+    </div>
+
+</body>
+</html>

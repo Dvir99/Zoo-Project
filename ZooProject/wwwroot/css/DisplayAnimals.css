@@ -1,0 +1,107 @@
+﻿body {
+    text-align: center;
+    color: black;
+    font-family: 'Segoe UI';
+    font-size: 17px;
+    background-image: url("/images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: revert;
+}
+
+h1 {
+    font-family: 'Alfa Slab One';
+    letter-spacing: 1px;
+}
+
+img {
+    width: 250px;
+    height: 200px;
+}
+
+.box {
+    margin: 30px 3px;
+    background-color: lightgoldenrodyellow;
+    width: 300px;
+    height: 300px;
+    border-radius: 50px;
+    display: inline-block;
+    padding-bottom: 5px;
+    box-shadow: 2px 4px 10px 3px #F0E68C;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.main-nav {
+    margin: 15px 10px;
+    background-color: lightgoldenrodyellow;
+    display: inline-block;
+    border-radius: 15px;
+    padding: 15px 10px;
+}
+    .main-nav a:hover {
+        transform: translateY(-2px);
+    }
+
+    a {
+        font-size: 1.2em;
+        text-decoration: inherit;
+        color: inherit;
+        transition: 0.5s;
+        padding: 3px 8px;
+        margin-top: 2px;
+        border-radius: 30px;
+    }
+
+    a:link {
+        text-decoration: inherit;
+        color: inherit;
+    }
+
+    a:active {
+        text-decoration: inherit;
+        color: inherit;
+    }
+
+    a:hover {
+        text-decoration: inherit;
+        color: lightgoldenrodyellow;
+        background-color: peru;
+    }
+
+.home:hover {
+    background-color: limegreen;
+    color: ghostwhite;
+    transform: translateY(-2px);
+}
+
+
+select {
+    margin: 8px 10px;
+    font-size: 20px;
+    padding: 5px 5px;
+    transition: 0.5s;
+    border-radius: 15px;
+}
+select:hover {
+    background-color: lightgray;
+}
+
+b {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.filter-container {
+    background-color: lightgoldenrodyellow;
+    margin: 3px 10px;
+    border-radius: 15px;
+    font-size: 20px;
+    padding: 2px 20px;
+    display: inline-block;
+}

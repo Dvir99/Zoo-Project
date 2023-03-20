@@ -1,0 +1,45 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ZooProject
+build_property.RootNamespace = ZooProject
+build_property.ProjectDir = C:\Users\dvir2\source\repos\ZooProject\ZooProject\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\dvir2\source\repos\ZooProject\ZooProject
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/dvir2/source/repos/ZooProject/ZooProject/Views/Display/AnimalDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzcGxheVxBbmltYWxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dvir2/source/repos/ZooProject/ZooProject/Views/Display/DisplayAll.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzcGxheVxEaXNwbGF5QWxsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dvir2/source/repos/ZooProject/ZooProject/Views/Display/DisplayTop2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzcGxheVxEaXNwbGF5VG9wMi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dvir2/source/repos/ZooProject/ZooProject/Views/Management/CreateScreen.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlbWVudFxDcmVhdGVTY3JlZW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dvir2/source/repos/ZooProject/ZooProject/Views/Management/DisplayAnimals.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlbWVudFxEaXNwbGF5QW5pbWFscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dvir2/source/repos/ZooProject/ZooProject/Views/Management/EditScreen.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlbWVudFxFZGl0U2NyZWVuLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dvir2/source/repos/ZooProject/ZooProject/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 

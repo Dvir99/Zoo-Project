@@ -1,0 +1,101 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\dvir2\\source\\repos\\ZooProject\\ZooProject\\wwwroot\\css\\AnimalDetails.css",
+      "PackagePath": "staticwebassets\\css\\AnimalDetails.css"
+    },
+    {
+      "Id": "C:\\Users\\dvir2\\source\\repos\\ZooProject\\ZooProject\\wwwroot\\css\\CreateScreen.css",
+      "PackagePath": "staticwebassets\\css\\CreateScreen.css"
+    },
+    {
+      "Id": "C:\\Users\\dvir2\\source\\repos\\ZooProject\\ZooProject\\wwwroot\\css\\DisplayAll.css",
+      "PackagePath": "staticwebassets\\css\\DisplayAll.css"
+    },
+    {
+      "Id": "C:\\Users\\dvir2\\source\\repos\\ZooProject\\ZooProject\\wwwroot\\css\\DisplayAnimals.css",
+      "PackagePath": "staticwebassets\\css\\DisplayAnimals.css"
+    },
+    {
+      "Id": "C:\\Users\\dvir2\\source\\repos\\ZooProject\\ZooProject\\wwwroot\\css\\DisplayTop2.css",
+      "PackagePath": "staticwebassets\\css\\DisplayTop2.css"
+    },
+    {
+      "Id": "C:\\Users\\dvir2\\source\\repos\\ZooProject\\ZooProject\\wwwroot\\css\\EditScreen.css",
+      "PackagePath": "staticwebassets\\css\\EditScreen.css"
+    },
+    {
+      "Id": "C:\\Users\\dvir2\\source\\repos\\ZooProject\\ZooProject\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\dvir2\\source\\repos\\ZooProject\\ZooProject\\wwwroot\\images\\background.jpg",
+      "PackagePath": "staticwebassets\\images\\background.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dvir2\\source\\repos\\ZooProject\\ZooProject\\wwwroot\\images\\chicken.jpg",
+      "PackagePath": "staticwebassets\\images\\chicken.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dvir2\\source\\repos\\ZooProject\\ZooProject\\wwwroot\\images\\dolphin.jpg",
+      "PackagePath": "staticwebassets\\images\\dolphin.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dvir2\\source\\repos\\ZooProject\\ZooProject\\wwwroot\\images\\eagle.jpg",
+      "PackagePath": "staticwebassets\\images\\eagle.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dvir2\\source\\repos\\ZooProject\\ZooProject\\wwwroot\\images\\goldfish.jpg",
+      "PackagePath": "staticwebassets\\images\\goldfish.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dvir2\\source\\repos\\ZooProject\\ZooProject\\wwwroot\\images\\kangaroo.jpg",
+      "PackagePath": "staticwebassets\\images\\kangaroo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dvir2\\source\\repos\\ZooProject\\ZooProject\\wwwroot\\images\\lion.jpg",
+      "PackagePath": "staticwebassets\\images\\lion.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dvir2\\source\\repos\\ZooProject\\ZooProject\\wwwroot\\images\\lizard.jpg",
+      "PackagePath": "staticwebassets\\images\\lizard.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dvir2\\source\\repos\\ZooProject\\ZooProject\\wwwroot\\images\\notfound.jpg",
+      "PackagePath": "staticwebassets\\images\\notfound.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dvir2\\source\\repos\\ZooProject\\ZooProject\\wwwroot\\images\\octopus.jpg",
+      "PackagePath": "staticwebassets\\images\\octopus.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dvir2\\source\\repos\\ZooProject\\ZooProject\\wwwroot\\images\\snake.jpg",
+      "PackagePath": "staticwebassets\\images\\snake.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dvir2\\source\\repos\\ZooProject\\ZooProject\\wwwroot\\images\\wolf.jpg",
+      "PackagePath": "staticwebassets\\images\\wolf.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dvir2\\source\\repos\\ZooProject\\ZooProject\\wwwroot\\js\\edit.js",
+      "PackagePath": "staticwebassets\\js\\edit.js"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.ZooProject.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.ZooProject.props",
+      "PackagePath": "build\\ZooProject.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.ZooProject.props",
+      "PackagePath": "buildMultiTargeting\\ZooProject.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.ZooProject.props",
+      "PackagePath": "buildTransitive\\ZooProject.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

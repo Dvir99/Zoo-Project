@@ -1,0 +1,12 @@
+2023-03-20 09:31:27.9132|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5038 
+2023-03-20 09:31:27.9671|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-03-20 09:31:27.9671|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-03-20 09:31:27.9671|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\dvir2\source\repos\ZooProject\ZooProject 
+2023-03-20 09:31:29.7471|0|INFO|ZooProject.Controllers.DisplayController|User entered Home page 
+2023-03-20 09:31:35.2869|0|INFO|ZooProject.Controllers.DisplayController|User entered Catalog page 
+2023-03-20 09:31:38.7630|0|INFO|ZooProject.Controllers.DisplayController|User entered Catalog page 
+2023-03-20 09:32:44.2157|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5038 
+2023-03-20 09:32:44.2825|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-03-20 09:32:44.2825|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-03-20 09:32:44.2825|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\dvir2\source\repos\ZooProject\ZooProject 
+2023-03-20 09:32:46.0560|0|INFO|ZooProject.Controllers.DisplayController|User entered Home page 

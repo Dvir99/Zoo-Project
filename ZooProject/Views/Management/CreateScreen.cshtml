@@ -1,0 +1,70 @@
+﻿@model ZooProject.Models.Animal;
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>CreateScreen</title>
+    <link href="~/css/CreateScreen.css" rel="stylesheet" />
+</head>
+
+<body>
+    <hgroup>
+        <h1>Create New Animal</h1>
+        <h3>Please Enter The Fields Below:</h3>
+    </hgroup>
+    <section class="box">
+        <form>
+            <div>
+                <label>
+                    Animal Name:
+                    <input type="text" placeholder="Animal Name..." name="name" required minlength="3" maxlength="20" />
+                </label>
+                <div>
+                    <span asp-validation-for="Name"></span>
+                </div>
+            </div>
+            <div>
+                <label>
+                    Age:
+                    <input type="number" placeholder="Animal Age..." name="age" required min="1" max="99" />
+                </label>
+                <div>
+                    <span asp-validation-for="Age"></span>
+                </div>
+            </div>
+            <div>
+                <label>
+                    Category Id:
+                    <input type="number" placeholder="Category Id..." name="categoryId" required min="1" max="4" />
+                </label>
+                <div>
+                    <span asp-validation-for="CategoryId"></span>
+                </div>
+            </div>
+            <div>
+                <label>
+                    Image Source:
+                    <input type="text" placeholder="URL..." name="imgSource" />
+                </label>
+            </div>
+            <div>
+                <label>
+                    Description:
+                    <input type="text" placeholder="Description..." name="description" required maxlength="140" />
+                </label>
+                <div>
+                    <span asp-validation-for="Description"></span>
+                </div>
+            </div>
+            <div>
+                <button type="submit" value="Create" asp-action="CreateAnimal">Create</button>
+            </div>
+        </form>
+    </section>
+</body>
+</html>

@@ -1,0 +1,44 @@
+﻿@model IEnumerable<ZooProject.Models.Animal>;
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>DisplayTop2</title>
+    <link href="~/css/DisplayTop2.css" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <h1>Welcome To "Noah's Ark" Zoo!</h1>
+    </header>
+    <main>
+        @*Section for the navigation bar and the filter by category*@
+        <section>
+            <nav class="main-nav">
+                <a asp-action="DisplayAll">Catalog</a>
+                <b> | </b>
+                <a asp-controller="Management" asp-action="DisplayAnimals">Admin</a>
+            </nav>
+        </section>
+        <h2>Here are our most popular animals:</h2>
+        @*Section for the display for each animal*@
+        <section class="flex-container">
+            @foreach (var item in Model)
+            {
+                <div class="box flex-item">
+                    <h3>@Html.DisplayFor(model => item.Name)</h3>
+                    <img src="@Url.Content(item.ImgSource)" alt="@Html.DisplayFor(model => item.Name) Image" />
+                    <div class="comments">
+                        <div>Comments: <span>@item.Comments?.Count</span></div>
+                    </div>
+                </div>
+            }
+        </section>
+    </main>
+
+</body>
+</html>

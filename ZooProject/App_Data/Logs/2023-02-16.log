@@ -1,0 +1,6 @@
+2023-02-16 10:06:19.2156|14|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5038 
+2023-02-16 10:06:19.2340|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-02-16 10:06:19.2340|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-02-16 10:06:19.2340|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\dvir2\source\repos\ZooProject\ZooProject 
+2023-02-16 10:06:20.0184|0|INFO|ZooProject.Controllers.DisplayController|User entered Home page 
+2023-02-16 10:06:21.5363|0|INFO|ZooProject.Controllers.DisplayController|User entered Catalog page 

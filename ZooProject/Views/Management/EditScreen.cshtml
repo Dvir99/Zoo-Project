@@ -1,0 +1,70 @@
+﻿@model ZooProject.Models.Animal;
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>EditScreen</title>
+    <link href="~/css/EditScreen.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="~/js/edit.js"></script>
+</head>
+<body>
+    <hgroup>
+        <h1>Edit Animal</h1>
+        <h3>Change The Fields Below:</h3>
+    </hgroup>
+    <section class="box">
+        <form>
+            <div>
+                <label>
+                    Animal Name:
+                    <input type="text" placeholder="Animal Name..." name="name" value="@Html.DisplayFor(m => Model.Name)" maxlength="20" />
+                    <br />
+                    <span asp-validation-for="Name"></span>
+                </label>
+            </div>
+            <div>
+                <label>
+                    Age:
+                    <input type="number" placeholder="Animal Age..." name="age" value="@Html.DisplayFor(m => Model.Age)" min="1" max="99" />
+                    <br />
+                        <span asp-validation-for="Age"></span>
+                </label>
+            </div>
+            <div>
+                <label>
+                    Category Id:
+                    <input type="number" placeholder="Category Id..." name="categoryId" value="@Html.DisplayFor(m => Model.CategoryId)" min="1" max="4" />
+                    <br />
+                        <span asp-validation-for="CategoryId"></span>
+                </label>
+            </div>
+           <div>
+                <label>
+                    Image Source:
+                    <input type="text" placeholder="URL..." name="imgSource" value="@Html.DisplayFor(m => Model.ImgSource)" />
+                    <br />
+                        <span asp-validation-for="ImgSource"></span>
+                </label>
+            </div>
+           <div>
+                <label>
+                    Description:
+                    <input type="text" placeholder="Description..." name="description" value="@Html.DisplayFor(m => Model.Description)" maxlength="140" />
+                    <br />
+                        <span asp-validation-for="Description"></span>
+                </label>
+            </div>
+            <div>
+                <button type="submit" asp-action="EditAnimal" asp-route-id="@Model.AnimalId">Update</button>
+                <br />
+            </div>
+        </form>
+    </section>
+</body>
+</html>

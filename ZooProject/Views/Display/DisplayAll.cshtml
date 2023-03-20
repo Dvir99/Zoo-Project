@@ -1,0 +1,61 @@
+﻿@model IEnumerable<ZooProject.Models.Animal>;
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width"/>
+    <title>Display Animals</title>
+    <link href="~/css/DisplayAll.css" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <h1>Catalog Page</h1>
+        <div>Watch Most Amazing Animals, From All Over The World</div>
+
+    </header>
+    <main>
+        @*Section for the navigation bar and the filter by category*@
+        <section>
+            <nav class="main-nav">
+                <a class="home" asp-action="DisplayTop2">Home</a>
+                <b> | </b>
+                <a  asp-controller="Management" asp-action="DisplayAnimals">Admin</a>
+            </nav>
+            <div class="filter-container">
+                <form asp-action="FilterByCategory">
+                    <b>Filter By:</b>
+                    <select name="categoryName" onchange="this.form.submit()">
+                        <option value="">Category</option>
+                        <option value="All">All</option>
+                        <option value="Mammals">Mammals</option>
+                        <option value="Aves">Aves</option>
+                        <option value="Reptiles">Reptiles</option>
+                        <option value="Fish">Fish</option>
+
+                    </select>
+                </form>
+
+            </div>
+        </section>
+
+        @*Section for the display for each animal*@
+        <section class="flex-container" >
+            @foreach (var item in Model)
+            {
+                <div class="box flex-item">
+                    <h3>@Html.DisplayFor(model => item.Name)</h3>
+                    <img src="@Url.Content(item.ImgSource)" alt="@Html.DisplayFor(model => item.Name) Image" />
+                    <div class="details">
+                        <a asp-action="AnimalDetails" asp-route-id="@item.AnimalId">Details</a>
+                    </div>
+                </div>
+            }
+        </section>
+    </main>
+
+</body>
+</html>

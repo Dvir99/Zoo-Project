@@ -1,0 +1,59 @@
+﻿body {
+    text-align: center;
+    color: black;
+    font-family: 'Segoe UI';
+    background-image: url( "/images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: revert;
+    font-size: 17px;
+}
+
+.box {
+    background-color: lightgoldenrodyellow;
+    display: inline-block;
+    padding: 20px 30px;
+    border-radius: 1em;
+}
+
+form div {
+    margin: 15px 10px;
+}
+
+input {
+    padding: 7px 15px;
+    border-radius: 0.7em;
+    margin-left: 5px;
+    width: 100px;
+}
+
+button {
+    padding: 8px 25px;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: inherit;
+    color: peru;
+    border-color:peru;
+    font-weight: bold;
+    font-size: 17px;
+    transition: 0.5s;
+}
+    button:hover {
+        color: lightgoldenrodyellow;
+        background-color: peru;
+        transform: translateY(-2px);
+    }
+
+label {
+    font-weight: bold;
+}
+
+h1 {
+    font-family: 'Alfa Slab One';
+    letter-spacing: 1px;
+}
+
+span {
+    color: red;
+    font-size: 12px;
+}

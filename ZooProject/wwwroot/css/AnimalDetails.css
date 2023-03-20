@@ -1,0 +1,96 @@
+﻿body {
+    text-align: center;
+    color: black;
+    font-family: 'Segoe UI';
+    background-image: url( "/images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: revert;
+    font-size: 17px;
+}
+
+h1 {
+    font-family: 'Alfa Slab One';
+    letter-spacing: 1px;
+}
+
+.box {
+    margin-top: 30px;
+    background-color: lightgoldenrodyellow;
+    width: 500px;
+    height: 450px;
+    border-radius: 50px;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-right: 35px;
+    float: inherit;
+    box-shadow: 2px 4px 10px 3px #F0E68C;
+}
+
+.comments {
+    overflow: auto;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#link-holder{
+    margin-top: 20px;
+}
+#link {
+    padding: 5px 15px;
+}
+
+img {
+    width: 250px;
+    height: 200px;
+}
+
+a {
+    text-decoration: inherit;
+    color: inherit;
+    transition: 0.8s;
+    padding: 3px 15px;
+    margin-top: 2px;
+    border-radius: 30px;
+    background-color: lightgoldenrodyellow;
+    font-size: 25px;
+}
+
+    a:hover {
+        text-decoration: inherit;
+        color: lightgoldenrodyellow;
+        background-color: peru;
+    }
+
+    a:link {
+        text-decoration: inherit;
+        color: inherit;
+    }
+
+    a:active {
+        text-decoration: inherit;
+        color: inherit;
+    }
+
+button {
+    margin-top:10px;
+    padding: 10px 15px;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: inherit;
+    color: peru;
+    border-color: peru;
+    font-weight: bold;
+    font-size: 17px;
+    transition: 0.5s;
+}
+
+    button:hover {
+        color: lightgoldenrodyellow;
+        background-color: peru;
+        transform: translateY(-2px);
+    }
